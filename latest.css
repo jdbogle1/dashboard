@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+}
+
+.container {
+ background:gray;
+ overflow: hidden;
+ width: 100vw;
+ height: 100vh;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+
+.panel {
+ /* border-right: 8px solid red; */
+ height: 100vh;
+ float: left;
+ /* display: inline; */
+ resize: horizontal;
+ overflow: auto;
+}
+.hpanel{
+    color:white;
+    height: 50%;
+}
+
+.panel-content{
+    height: 100%;
+}
+
+.divV {
+  float: left;
+  height: 100%;
+  width: 10px;
+  clear: right;
+  max-width: 10px;
+  background: black;
+  overflow: hidden;
+  cursor: col-resize;
+}
+
+.divH {
+    float: left;
+    height: 10px;
+    width: 100%;
+    clear: right;
+    max-height: 10px;
+    background: black;
+    overflow: hidden;
+    cursor: col-resize;
+}
+
+
+
