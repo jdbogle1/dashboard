@@ -23,8 +23,10 @@ body {
  overflow: auto;
 }
 .hpanel{
-    color:white;
-    height: 50%;
+    background:white;
+    height: calc(50% - 1px);
+    resize: vertical;
+    overflow: visible;
 }
 
 .panel-content{
@@ -51,6 +53,10 @@ body {
     background: black;
     overflow: hidden;
     cursor: col-resize;
+}
+
+::-webkit-resizer{
+    border: solid 1px;
 }
 
 
